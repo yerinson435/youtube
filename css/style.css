@@ -70,6 +70,20 @@ i{
   font-size: 1.5rem;
 }
 
+::-webkit-scrollbar{
+  width: 8px;
+  
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.sidebar::-webkit-scrollbar-thumb{
+  background-color: #717171;
+}
+
 .logo-container{
   display: flex;
   align-items: center;
@@ -172,6 +186,7 @@ i{
 .sidebar{
   grid-area: sidebar;
   background-color: #212121;
+  overflow-y: scroll;
 }
 
 .sidebar-items{
