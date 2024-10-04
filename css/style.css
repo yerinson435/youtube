@@ -186,6 +186,7 @@ i{
 .sidebar{
   grid-area: sidebar;
   background-color: #212121;
+  padding-top: 10px;
   overflow-y: scroll;
 }
 
