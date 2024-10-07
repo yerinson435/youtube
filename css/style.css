@@ -248,3 +248,84 @@ i{
 .chips:hover{
   background-color: #d4d4d4;
 }
+
+.video-container{
+  display: grid;
+  /* grid-template-columns: repeat(4 , 1fr); */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: max-content;
+  padding: 20px;
+  background-color: #181818;
+  height: calc(100vh - 119px);
+  overflow-y: scroll;
+}
+
+.video-container-cover{
+  position: relative;
+  transition: 0.5s;
+}
+
+.video-content{
+  margin-bottom: 25px;
+  position: relative;
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  transition: 1s;
+}
+
+.video-content:hover{
+  background-color: #373737;
+}
+
+.video-box{
+  position: relative;
+  width: auto;
+  height: 145px;
+  display: block;
+  border-radius: 12px;
+}
+
+.video-box img{
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.video-detail{
+  display: flex;
+  color: #fff;
+  padding-top: 12px;
+}
+
+.chanel-logo{
+  position: relative;
+  min-width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.detail{
+  margin-left: 12px;
+}
+
+.title{
+  font-size: 0.8rem;
+}
+
+.chanel-name{
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #aaa;
+}
+
+.views-upload{
+  display: flex;
+  font-size: 0.8rem;
+  margin-top: 4px;
+  color: #aaa;
+}
+
+.upload{
+  margin-left: 7px;
+}
