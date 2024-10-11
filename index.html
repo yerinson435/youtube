@@ -3,85 +3,95 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Youtube</title>
   <link rel="stylesheet" href="css/style.css">
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="shortcut icon" href="img/logo.png">
 </head>
+
 <body>
   <!--Header-->
   <header class="header">
+
+
     <!-- contenerdor-logo -->
-    <div class="logo-container">
+    <div class="header__logo-container">
 
     <a href="#"><i class="ri-menu-2-line"></i>
     </a>
-    <div class="logo">
-      <div class="logo-img">
+    <div class="header__logo">
+      <div class="header__logo-img">
         <img src="img/logo.png" alt="logo">
       </div>
       <h1>Youtube</h1>
     </div>
   </div>
+
+
 <!-- container busqueda -->
  <div class="search-container">
   <form action="">
-    <input type="text" placeholder="Buscar...">
+    <input type="search-container__busqueda" placeholder="Buscar...">
     <button>
-      <i class="ri-search-line"></i>
+      <i class="ri-search-line search-container__lupa"></i>
     </button>
   </form>
     <button>
-      <i class="ri-mic-line"></i>
+      <i class="ri-mic-line search-container__microfono"></i>
     </button>
  </div>
+
+
  <!-- container perfil-->
     <div class="profile-container">
       <a href="#">
-        <i class="ri-video-add-line"></i>
+        <i class="ri-video-add-line profile-container__añadir-vidio"></i>
       </a>
       <a href="#">
-        <i class="ri-notification-line"></i>
+        <i class="ri-notification-line profile-container__notificacion"></i>
       </a>
       <div>
-        <img src="img/perfil.jpg" alt="perfil">
+        <img src="img/perfil.jpg" alt="imagen-de-perfil">
       </div>
     </div>
   </header>
+
+
   <!--Sidebar-->
   <aside class="sidebar">
-    <div class="sidebar-items">
+    <div class="sidebar-items__menu">
 
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-home-5-line"></i><span>Home</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-compass-3-line"></i><span>Explore</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-wireless-charging-line"></i><span>Shorts</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-rss-line"></i><span>Subcriptions</span>
       </a>
 
       <hr>
 
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-links-line"></i><span>Library</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-history-line"></i><span>History</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-video-line"></i><span>Your videos</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-time-line"></i><span>Watch videos</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-play-list-2-fill"></i><span>All videos</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-arrow-down-line"></i><span>Show more</span>
       </a>
 
@@ -89,28 +99,28 @@
 
       <h4>MORE FROM YOUTUBE</h4>
 
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-keyboard-box-line"></i><span>Gaming</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-live-line"></i><span>Live</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-award-line"></i><span>Sports</span>
       </a>
 
       <hr>
 
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-settings-3-fill"></i><span>Setting</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-flag-line"></i><span>Report history</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-question-line"></i><span>Help</span>
       </a>
-      <a href="#" class="sidebar-item">
+      <a href="#" class="sidebar-item__botom">
         <i class="ri-feedback-line"></i><span>Send feedback</span>
       </a>
 
@@ -120,531 +130,531 @@
   </aside>
   <!--Main-->
   <main class="content">
-    <div class="chips-warpper">
-      <div class="chips">
+    <div class="content__chips-warpper">
+      <div class="chips__habilidades">
         <p>All</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Html</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Css</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Responsive desing</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>UI desing</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>JavaScript</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Html</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Php</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Node js</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Mysql</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>UI/UX</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>React</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>C#</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>Oracle</p>
       </div>
-      <div class="chips">
+      <div class="chips__habilidades">
         <p>UML</p>
       </div>
     </div>
     <div class="video-container">
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover__carta-vidio">
+        <div class="video-content  video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-1.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Vida de Sapito parte 3</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil vistas</div>
+                <div class="detail__upload">2 semanas</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenido--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-2.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Vida de Sapito parte 2</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">2Mil views</div>
+                <div class="detail__upload">4 semanas</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-3.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">vida de sapito parte 1</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">5Mil vistas</div>
+                <div class="detail__upload">1 mes</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-4.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Serpientes salvajes</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">6Mil vistas</div>
+                <div class="detail__upload">2 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-5.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">serpientes</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil vistas</div>
+                <div class="detail__upload">3 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-6.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">serpientes y mas serpientes</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10mil vistas</div>
+                <div class="detail__upload">4 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-7.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">serpientes peligrosas</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">5mil vistas</div>
+                <div class="detail__upload">5 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-8.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Gatos dormidos</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">50mil visitas</div>
+                <div class="detail__upload">6 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-9.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">imagenes de gatos</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">5mil visits</div>
+                <div class="detail__upload">7 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-10.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">La vida de un Gato</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">8 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
       
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-11.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Gaticos bebes</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">9 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-12.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Gatos salvajes</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10M visitas</div>
+                <div class="detail__upload">10 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-13.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">perros salvajes</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">12 meses</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-14.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">perritos</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-15.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">lobos mas domesticados</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">15mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-16.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">video graciosos de perros</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-17.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">videos graciosos</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">20Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-18.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">payaros</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-19.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">payaros y su vida</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">15Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-20.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Payarooooooo!</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">12Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-21.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">payaro y su familia</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/img-22.jpg" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Clon Youtube Flexbox and Grid CSS</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">payarin</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">700Mil visitas</div>
+                <div class="detail__upload">1 año</div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="video-container-cover">
-        <div class="video-content">
-          <a href="#" class="video-box">
+      <div class="video-container-cover video-container-cover__carta-video">
+        <div class="video-content video-content__contenedor--video">
+          <a href="#" class="video-box__video-imgen">
             <img src="img/vaca.png" alt="video">
           </a>
-          <div class="video-detail">
-            <div class="chanel-logo">
+          <div class="video-detail video-detail__contenido">
+            <div class="chanel-logo__usuario">
               <img src="img/perfil.jpg" alt="">
             </div>
             <div class="detail">
-              <h3 class="title">Vaca Captado en camara</h3>
-              <div class="chanel-name">Yerinson Suarez</div>
-              <div class="views-upload">
-                <div class="views">10M views</div>
-                <div class="upload">1 year ago</div>
+              <h3 class="detail__title">Vaca Captado en camara</h3>
+              <div class="detail__chanel-name">Yerinson Suarez</div>
+              <div class="detail__views-upload">
+                <div class="detail__views">10M views</div>
+                <div class="detail__upload">2 años</div>
               </div>
             </div>
           </div>

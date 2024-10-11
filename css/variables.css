@@ -1,0 +1,18 @@
+:root{
+    --header-fondo: #202020;
+    --color-de-texto: #fff;
+    --hr-color: solid 1px rgba(255, 255, 255, 0.1);
+    --h4-color: #aaa;
+    --scrollbar-color: #717171;
+    --contenedor-busqueda: #121212;
+    --borde-de-busqueda: solid rgba(255, 255, 255, 0.1);
+    --botones-fondo: #313131;
+    --sidebar: #212121;
+    --sidebar-item: #939393;
+    --chips-top: 1px solid rgba(255, 255, 255, 0.1);
+    --chips-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    --chips: #373737;
+    --chips-hover: #d4d4d4;
+    --video-container: #181818;
+    --video-content-hover: #373737;
+}
